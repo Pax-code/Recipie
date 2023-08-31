@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentContainer">
+
+    <fragment
+        android:id="@+id/fragmentContainer"
+        android:name="com.mecdev.recipie.presentation.ui.FragmentContainer"
+        android:label="fragment_container"
+        tools:layout="@layout/fragment_container" />
+    <fragment
+        android:id="@+id/findRecipeFragment"
+        android:name="com.mecdev.recipie.presentation.ui.FindRecipeFragment"
+        android:label="fragment_find_recipe"
+        tools:layout="@layout/fragment_find_recipe" >
+        <action
+            android:id="@+id/action_findRecipeFragment_to_findedRecipeFragment"
+            app:destination="@id/findedRecipeFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/findedRecipeFragment"
+        android:name="com.mecdev.recipie.presentation.ui.FindedRecipeFragment"
+        android:label="fragment_finded_recipe"
+        tools:layout="@layout/fragment_finded_recipe" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.mecdev.recipie.presentation.ui.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.mecdev.recipie.presentation.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

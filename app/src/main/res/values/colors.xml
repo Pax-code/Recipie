@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="lineColor">#555555</color>
+    <color name="lightGray">#656363</color>
+    <color name="lightGraySecond">#AEA7A7</color>
+    <color name="darkGray">#2E2E2E</color>
+    <color name="grayMain">#2a2931</color>
+    <color name="graySecond">#4c4459</color>
+    <color name="textColorSecond">#e8e0f7</color>
+    <color name="textColor">#d8d4d5</color>
+</resources>
